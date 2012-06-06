@@ -3,8 +3,6 @@
   <meta charset="utf-8">
   <title>Books Grant Custer loved.</title>
   <meta content="A virtual shelf of books I liked a whole lot.">
-	<script type="text/javascript" src="http://use.typekit.com/rpj4ngm.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<style type="text/css">
 		/* http://meyerweb.com/eric/tools/css/reset/ 
 		   v2.0 | 20110126
@@ -37,7 +35,7 @@
 		}
 		body {
 			line-height: 1;
-			font-family: ff-meta-web-pro-1, ff-meta-web-pro-2;
+			font-family: sans-serif;
 		}
 		ol, ul {
 			list-style: none;
@@ -189,7 +187,7 @@
 			);
 		});
 	</script>
-	<?  $url = "http://www.goodreads.com/review/list/74775.xml?key=Pow8OWUHlO87f4eNgqpmDQ&v=2&shelf=read&sort=rating&order=d&per_page=50";
+	<?  $url = "http://www.goodreads.com/review/list/74775.xml?key=YOUR_KEY_HERE&sort=rating&order=d&per_page=50";
 		$ch = curl_init();  
 		curl_setopt($ch, CURLOPT_URL, $url);
 		curl_setopt($ch, CURLOPT_HEADER, false);
